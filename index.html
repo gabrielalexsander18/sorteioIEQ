@@ -11,9 +11,7 @@
     <title>Sorteador</title>
 </head>
 <body>
-    <img class="logotipo" src="./assets/logo-portfolio.png" alt="logotipo" />
-    <img class="imgDado" src="./assets/sort.png" alt="img-dado" />
-
+    <img id="logotipo" src="./assets/logo-portfolio.png" alt="logotipo" />
     
     <div class="container">
         <p>Quantidade</p>
@@ -25,7 +23,22 @@
         </div>
         <button class="sort" >Sortear</button>
     </div>
-    
+
+    <div class="containerDoutrinas">
+        <img id="doutrinas" src="./assets/simbolos_doutrina_quadrangular.svg" alt="img-doutrinas">
+    </div>
+
+    <div id="container_loader">
+        <div id="loader"></div>
+    </div>
+
+    <div id="container_opacity">
+        <div id="container_result">
+            <p id="resultadoNome"></p>
+            <p id="resultadoNumero"></p>
+            <button id="button_return">Voltar</button>
+        </div>
+    </div>
 </body>
 
 <script src="./index.js"></script>
