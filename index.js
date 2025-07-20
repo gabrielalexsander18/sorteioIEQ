@@ -130,12 +130,12 @@ const sortNumber = () => {
                 containerOpacity.style.display = 'flex',
                     // resultado.style.color = 'rgba(127,255,0, .9)',
 
-                    rNome.innerHTML = `Name: ${sortedNumbers.name}`
+                    // rNome.innerHTML = `Name: ${sortedNumbers.name}`
                     rNumero.innerHTML = `Número: ${sortedNumbers.number}`
                     
                     break
             } else {
-                    rNome.innerHTML = `Número não encontrado`
+                    // rNome.innerHTML = `Número não encontrado`
                     rNumero.innerHTML = ``
             }
 
